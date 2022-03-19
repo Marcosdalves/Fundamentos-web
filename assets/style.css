@@ -14,8 +14,10 @@ Estilos da página index
 
 body{
 
-background: linear-gradient(#ffffff, #f3f2f2, #ffffff);
+background: linear-gradient(#dddddd, #f1f1f1, #a19d9d);
+
 }
+
 #menu ul li{
 
     display:inline;
@@ -26,24 +28,25 @@ background: linear-gradient(#ffffff, #f3f2f2, #ffffff);
 }
 
 #menu ul li a{
-    color:rgb(13, 1, 59)
+    color:rgb(0, 0, 0)
 }
 
 #menu ul li a:hover{
-    color: rgb(60, 72, 102);
+    color: rgb(255, 255, 255);
 }
 
 #titulo {
-    color:rgb(200, 195, 216);
+    color:rgb(255, 255, 255);
     font-size:50px;
     font-family:"Josefin Sans";
     background-color:rgb(9, 1, 46)
 }
 
 #titulo:hover{
-color: rgb(62, 70, 97);
+    color: rgb(62, 70, 97);
 
 }
+
 .container{
     display: flex;
     flex-flow: row;
@@ -52,6 +55,7 @@ color: rgb(62, 70, 97);
     text-align:justify;
     padding-left: 30px;
     font-size:30px;
+
 }
 
 .container img{
@@ -59,11 +63,18 @@ color: rgb(62, 70, 97);
     height: auto;
     padding-left:30px ;
 
-
 }
 .centralizar{
+    text-align :center;
 
-text-align :center;
-
+}
+#tm-social{
+    width:50px;
+    height:50px 
+}
+.br-10{
+    width:50px;
+    height:50px 
+}
 
 }
